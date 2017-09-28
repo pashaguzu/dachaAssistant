@@ -1,0 +1,146 @@
+#logo{
+
+    width: 100px;
+    height: 20px;
+
+
+}
+body { padding-top: 50px; }
+#header {
+    background: #000000;  }
+
+li:hover {
+    color: rgb(0,161,217);/* Цвет ссылки при наведении на нее курсора мыши */
+    /*text-decoration: underline; !* Добавляем подчеркивание *!*/
+}
+
+#baner1{
+     height: 100vh; /* высота секции равна высоте области просмотра */
+     background: #333;
+     background-size: cover;
+
+ }
+
+.photo_image{
+    width: 100px;
+}
+
+#baner2{
+    height: 270vh; /* высота секции равна высоте области просмотра */
+    background:whitesmoke;
+    background-size: cover;}
+
+.baner2label{
+    color: #000;
+    position: relative;
+    left: 35%;
+    font-family: Verdana, Times, serif; /* Гарнитура текста */
+    font-size: 500%;
+    font-style: normal;
+}
+.baner3label{
+    color: #ffffff;
+    position: relative;
+    left: 15%;
+    font-family: Verdana, Times, serif; /* Гарнитура текста */
+    font-size: 400%;
+    font-style: normal;
+}
+
+.wrapper{
+    background: #333;
+}
+.zakazopis{
+height: 22.2em;
+    background: #333;
+
+}
+.zakaz{
+    border: 1px solid #333;
+}
+.labelname{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: honeydew;
+}
+.labelopis{
+    font-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: honeydew;
+}
+.buttonzakaz{
+
+}
+.baner2top{
+    position: relative;
+
+    /*background: green;*/
+    height: 10vh;
+}
+
+.baner2bootom2{
+    position: relative;
+
+    background: red;
+    background-size: cover;
+
+    height: 350px;
+}
+
+.baner2bootom2label{
+color: black;
+    position: relative;
+    left:10%;
+    top:30%;
+    font-family: Verdana, Times, serif; /* Гарнитура текста */
+    font-size: 300%;
+    font-style: normal;
+}
+
+/*-------------------------------------------------------------------*/
+#baner3{
+    height: 120vh; /* высота секции равна высоте области просмотра */
+    background:#1F1F1F url(images/pattern.png) repeat top left;
+    color:#fff;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-size:14px;
+    background-size: cover;}
+
+#baner3left{
+    position: relative;
+    top:20px;
+    background: red;
+    height: 100vh;
+}
+
+#baner3right{
+    height: 100vh;
+    position: relative;
+    top:20px;
+    background: yellow;
+}
+.imagesz  {
+    -webkit-filter: grayscale(50%);
+    -moz-filter: grayscale(50%);
+    -o-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+.read-more{
+    display: none;
+}
+.baner2bootom2:hover .read-more{
+    width: 200px;
+    height: 50px;
+    display: block;
+    border-radius: 15px;
+    position: absolute; top: 120px; left: 50px;
+    background: rgba(255,255,255,0.8);
+    color: #fff;
+}
+.labelzakaz{
+    color: black;
+    font-family: 'Verdana', Times, serif; /* Гарнитура текста */
+    font-size: 200%; /* Размер шрифта в процентах */
+}
+/*-------------------------Gallery-------------------------------------------------------*/
